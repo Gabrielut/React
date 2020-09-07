@@ -28,6 +28,14 @@ max-width: 100%;
   color: #fff;
   text-decoration: none;
 }
+.course span{
+  display: flex;
+  padding-top: 10px;
+}
+.course button{
+  margin-right: 10px;
+  
+}
 
 footer{
   background-color: #34495e;
