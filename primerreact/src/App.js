@@ -2,6 +2,8 @@ import React from 'react';
 import cursoImage from './cursos.jpg';
 import './index.css';
 import Course from './curso';
+import Modal from './Modal';
+import Carrusel from './Carrusel';
 
 // Los siguientes 3 hacen lo mismo y son 3 formas diferentes de hacerlo
 // Componente funcion
@@ -38,7 +40,7 @@ class App extends React.Component {
     courses: [
       {
         id: 0,
-        titulo: 'Curso de desarrollo web',
+        titulo: 'Curso de web',
         link: '/web',
         likes: 2,
         available : true
@@ -62,9 +64,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <h1>Bienvenidos a nuestros cursos</h1>
+        <header>          
         </header>
+        <Modal></Modal>
+        
         <section className="courses">
           {this.state.courses.map(course => {
             if (course.available) {
@@ -78,6 +81,7 @@ class App extends React.Component {
           )};
 
         </section>
+        <Carrusel></Carrusel>
         <footer>
           <p>Todos los derechos reservados</p>
         </footer>

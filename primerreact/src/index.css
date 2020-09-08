@@ -1,12 +1,12 @@
-header{
-  background: url('./header.jpg');
-  min-height: 300px;
+header{  
+  background: url('./header.jpg'); 
+   min-height: 300px; 
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+   margin-bottom: 30px;   
 }
 .courses{
   display: flex;
@@ -43,3 +43,14 @@ footer{
   color: #fff;
   margin-top: 30px;
 }
+
+.row{
+  margin-bottom: -24px;  
+}
+
+.carousel img{
+ 
+  width: 200px;
+  height: 500px;
+}
+
