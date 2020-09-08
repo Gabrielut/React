@@ -1,7 +1,7 @@
 import React from 'react';
 import cursoImage from './cursos.jpg';
 import './index.css';
-import Modal from './Modal';
+
 
 class Course extends React.Component{
     constructor(props){

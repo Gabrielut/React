@@ -4,6 +4,7 @@ import './index.css';
 import Course from './curso';
 import Modal from './Modal';
 import Carrusel from './Carrusel';
+import Footer from './footer';
 
 // Los siguientes 3 hacen lo mismo y son 3 formas diferentes de hacerlo
 // Componente funcion
@@ -82,9 +83,7 @@ class App extends React.Component {
 
         </section>
         <Carrusel></Carrusel>
-        <footer>
-          <p>Todos los derechos reservados</p>
-        </footer>
+        <Footer></Footer>
       </div>
     );
   };

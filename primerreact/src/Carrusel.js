@@ -8,12 +8,13 @@ export class BootstrapCarousel extends Component {
         return (
             <div>
                 <div class='container-fluid' >
-                    <div className="row title" style={{ marginBottom: "1px" }} >
-                        <div class="col-sm-12 btn btn-warning">
+                    {/* <div className="row title" style={{ marginBottom: "1px" }} > */}
+                        <div class="col-sm-12 btn " >
                             Nuestros cursos
                          </div>
-                    </div>
-                </div>
+                    {/* </div> */}
+                </div> 
+               
                 <div className='container-fluid' >
                     <Carousel>
                         <Carousel.Item  >
